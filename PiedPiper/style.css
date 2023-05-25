@@ -1,0 +1,217 @@
+ @import url('normalize.css');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+* {box-sizing: border-box}
+
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1219px;
+    margin: 0 auto;
+    padding: 0 55px;
+}
+
+
+/* Intro */
+.intro {
+    margin-top: 84px;
+    padding: 160px 0 160px 0;
+    width: 100%;
+    background-image: url('image/is_Here.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.intro_title {
+  margin: 0 auto;
+  font-size: 72px;
+  color: #FFFFFF;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #007765;
+    height: 84px;
+}
+
+.header_inner {
+    margin: 0;
+    position: relative;
+    height: 100%;
+    width: 100%
+
+}
+
+.nav {
+   position: absolute;
+   left: 50%;
+   top: 27px;
+
+
+}
+
+.nav_link {
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.image_logo {
+    position: absolute;
+    padding-top: 20px;
+}
+
+
+.The_Problem {
+    padding: 48px 0 92px 0;
+    width: 100%;
+    margin: 0;
+    background-color: #EEEEEE;
+}
+
+.The_Problem_title {
+    text-align: center;
+    color: #007765;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.The_Problem_text {
+    color: #000000;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.Hero {
+    padding: 128px 0;
+    margin: 0;
+    width: 100%;
+    background-image: url('image/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Hero_text {
+    max-width: 893px;
+    margin: 0 auto;
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+}
+
+.Introducing {
+    margin: 0;
+    padding: 48px 0 92px 0;
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    font-size: 32px;
+    color: #000000;
+    float: right;
+}
+
+.Introducing_title {
+    text-align: center;
+    color: #007765;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.PPC_Logo {
+    height: 115px;
+    width: 115px;
+    float: left;
+    margin: 40px 48px 20px 0;
+}
+
+.Introducing_text {
+    margin: 0;
+    padding: 0;
+
+}
+
+.The_Team {
+    padding: 48px 0 45px 0;
+    width: 100%;
+    margin: 0;
+    background-color: #EEEEEE;
+
+}
+
+.The_Team_title {
+    text-align: center;
+    color: #007765;
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 32px;
+
+
+}
+
+
+.line_1 {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+
+h4 {
+    color: #007765;
+    font-size: 24px;
+}
+
+.img {
+    height: 284px;
+    width: 33.333%;
+    font-size: 18px;
+    font-style: italic;
+    color: #000000;
+    margin-bottom: 60px;
+    text-align: center;
+
+}
+
+
+.footer {
+    width: 100%;
+    background-color: #333333;
+    padding-top: 48px;
+    padding-bottom: 64px;
+    margin: 0px;
+}
+
+.text_footer {
+    max-width: 540px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
